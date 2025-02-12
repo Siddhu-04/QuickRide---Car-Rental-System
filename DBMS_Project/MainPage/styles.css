@@ -1,0 +1,113 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: white;
+}
+
+/* Navbar */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    padding: 15px 40px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: cyan;
+}
+
+.logo span {
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.login-btn {
+    background: cyan;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: url('hero-bg.jpg') no-repeat center/cover;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.booking-box {
+    background: black;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.trip-type button {
+    padding: 10px;
+    border: none;
+    background: gray;
+    color: white;
+    cursor: pointer;
+}
+
+.trip-type button.active {
+    background: cyan;
+}
+
+.input-group {
+    margin: 10px 0;
+}
+
+input {
+    padding: 8px;
+    width: 100%;
+}
+
+.explore-btn {
+    background: orange;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px;
+    background: black;
+}
+
+.feature {
+    text-align: center;
+}
+
+.feature img {
+    width: 60px;
+    height: 60px;
+}
